@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile - OSS Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <h1>
+        <a href="index.html" class="logo">OSS Store</a>
+      </h1>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About / Contribute</a>
+        <a href="cart.html" class="cart-link"> 🛒 Cart <span class="cart-badge">2</span> </a>
+        <a href="profile.html">Profile</a>
+      </div>
+
+      <!-- Search Bar -->
+      <form class="search-form" action="index.html" method="get" role="search">
+        <input
+          type="search"
+          name="q"
+          placeholder="Search products..."
+          aria-label="Search products"
+        />
+        <button type="submit">Search</button>
+      </form>
+    </nav>
+
+    <main>
+      <div class="profile-container">
+        <div class="profile-card">
+          <div class="avatar profile-avatar">👤</div>
+          <h2>Alex Johnson</h2>
+          <p class="profile-email">alex.johnson@example.com</p>
+
+          <div class="profile-info-grid">
+            <div class="profile-info-item">
+              <span class="info-label">Member Since</span>
+              <span class="info-value">January 2026</span>
+            </div>
+            <div class="profile-info-item">
+              <span class="info-label">Role</span>
+              <span class="info-value">Contributor</span>
+            </div>
+            <div class="profile-info-item">
+              <span class="info-label">Orders</span>
+              <span class="info-value">5 completed</span>
+            </div>
+            <div class="profile-info-item">
+              <span class="info-label">Location</span>
+              <span class="info-value">San Francisco, CA</span>
+            </div>
+          </div>
+
+          <button class="edit-profile-btn" type="button">Edit Profile</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 OSS Shopping Cart. Built with Flexbox & CSS Grid.</p>
+    </footer>
+  </body>
+</html>
